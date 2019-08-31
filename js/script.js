@@ -11,7 +11,7 @@ $(document).ready(function(){
             $('header').addClass('sticky');
         }
         else{
-            ('header').removeClass('sticky');
+            $('header').removeClass('sticky');
         }
 
         if (sc > 1881) {
